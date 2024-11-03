@@ -11,7 +11,7 @@ The proposed method is based on the MMVM prior $h(\mathbf{z} | \mathbf{X})$ that
 
 ![MMVM VAE](arch_mmvamp_vaes_cropped.png)
 
-## Installation
+# Installation
 
 To be able to run the experiments and reproduce the results shown in the paper, you need to install the ```mvvae``` conda environments using
 
@@ -19,13 +19,13 @@ To be able to run the experiments and reproduce the results shown in the paper, 
 conda env create -f environment.yml
 ```
 
-## Data
+# Data
 
 The data can be downloaded through the link: https://datadryad.org/stash/dataset/doi:10.7280/D14X30
 
 # Benchmark Experiments
 
-To run the PolyMNIST experiment, you can use the following command from the root dir of the repository after having activated the conda environment
+To run the experiment, you can use the following command from the root dir of the repository after having activated the conda environment
 
 ```
 python main_rats_wsl.py model="mixedprior"
